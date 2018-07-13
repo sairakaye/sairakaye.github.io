@@ -1,4 +1,4 @@
-# sairakaye.github.io
+# Site Map (LAB.RES.SYS)
 
 
 index.html
@@ -47,7 +47,6 @@ conres.html (contd.)
 - clicking on confirm prompts an alert and returns the user to the home.html screen
 
 
-
 admin.html
 - the admin page of the website
 - contains the three main features of the website namely to search, reserve and check reservations
@@ -55,7 +54,7 @@ admin.html
 - clicking the search labs directs the admin to the admin-search.html
 - clicking the reserve slots directs the admin to the admin-selectLabRm.html
 - clicking the my reservations directs the admin to the admin-reservations.html
-
+* In order to access the admin page, type: admin@dlsu.edu.ph and password: admin.
 
 admin-reserve.html
 - screen wherein the admin decides for the walk-in student where and when to reserve a slot
