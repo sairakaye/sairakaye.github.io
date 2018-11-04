@@ -1,0 +1,59 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+/* Navbar settings */
+.navbar { 
+  -webkit-transition:padding 0.2s ease;
+  -moz-transition:padding 0.2s ease; 
+  -o-transition:padding 0.2s ease;        
+  transition:padding 0.2s ease;  
+}
+
+.navbar-bg {
+  background-color: #521e06;
+}
+
+.affix {
+  padding-top: 0em !important;
+  padding-bottom: 0em !important;
+  background-color: #2d1104;
+  -webkit-transition:all 0.4s linear;
+  -moz-transition:all 0.4s linear; 
+  -o-transition:all 0.4s linear;  
+  transition:all 0.4s linear;
+}
+
+
+.navbar-bg .navbar-nav .nav-link {
+  color: white;
+  padding: 1rem 1rem;
+}
+
+.navbar-bg .nav-item.active .nav-link,
+.navbar-bg .nav-item:hover .nav-link {
+  color: #ffd101;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.left-margin {
+  margin-left: 5px;
+}
+
+/* Heading settings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Footer settings */
+.black-bg {
+  background-color: #0F0F0F;
+}
