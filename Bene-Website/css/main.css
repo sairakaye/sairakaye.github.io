@@ -12,13 +12,13 @@ html, body {
 }
 
 .navbar-bg {
-  background-color: #521e06;
+  background-color: #301504;
 }
 
 .affix {
   padding-top: 0em !important;
   padding-bottom: 0em !important;
-  background-color: #2d1104;
+  background-color: #200f03;
   -webkit-transition:all 0.4s linear;
   -moz-transition:all 0.4s linear; 
   -o-transition:all 0.4s linear;  
