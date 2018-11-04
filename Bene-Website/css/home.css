@@ -6,7 +6,7 @@
 
 /* Set of background images */
 .bene-bg {
-    background: url("https://sairakaye.github.io/Bene-Website/res/sample.jpg") no-repeat center center;
+    background: url("./res/sample.jpg") no-repeat center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

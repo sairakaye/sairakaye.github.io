@@ -48,6 +48,11 @@ html, body {
   margin-left: 5px;
 }
 
+.vertical-center {
+  padding: 15px 0;
+  height: 60px;
+}
+
 /* Heading settings */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
