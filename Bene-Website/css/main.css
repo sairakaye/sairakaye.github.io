@@ -44,6 +44,14 @@ html, body {
   pointer-events: none;
 }
 
+.dropdown > .dropdown-menu > .dropdown-item:hover {
+  background-color: #CDCDCD;
+}
+
+.dropdown > .dropdown-menu > .dropdown-item:active {
+  background-color: #f0c401;
+}
+
 .left-margin {
   margin-left: 5px;
 }
