@@ -53,6 +53,12 @@ html, body {
   height: 60px;
 }
 
+@media (max-width: 575px) {   
+  .vertical-center {
+    padding: 0 0;
+  }
+}
+
 /* Heading settings */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
