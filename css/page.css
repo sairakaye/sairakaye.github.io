@@ -195,6 +195,12 @@ header nav ul li a.active {
 
 @media (max-width: 375px) {
   .pic-size {
+    width: 250px;
+  }
+}
+
+@media (max-width: 350px) {
+  .pic-size {
     width: 200px;
   }
 }
@@ -235,7 +241,7 @@ header nav ul li a.active {
 
 /* For Sections */
 .introduction {
-  background-image: url("../images/background.JPG");
+  background-image: url("../images/background.jpg");
   background-color: #575757;
   background-blend-mode: multiply;
   height: 100%;
