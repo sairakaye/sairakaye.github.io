@@ -3,30 +3,311 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Under construction! :(</title>
-
-  <meta name="description" content="">
+  <title>Sai's Portfolio</title>
+  <meta name="description" content="This is Sai's web portfolio.">
   <meta name="author" content="Sai Manalili">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="skeleton.css">
-  <link rel="stylesheet" href="soon.css">
+
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/page.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <script src="https://kit.fontawesome.com/6e78360b4a.js"></script>
 </head>
 
 <body>
-  <div class="top-bottom-margin">
+  <header class="default">
+    <a href="#about-me">
+      <div class="logo">
+        <div class="brand"></div>
+        <div class="brand-name">
+          Sai Manalili
+        </div>
+      </div>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle">
+      <i class="fa fa-bars"></i>
+    </div>
+  </header>
+
+  <div class="introduction" id="about-me">
     <div class="container">
       <div class="row">
-        <div class="ul-full-width">
-          <h1>This website is under construction!</h1>
-          <p>Rework of Sai's Portfolio is in progress. <br>
-            This website will be up again anytime soon. ;)</p>
+        <div class="seven columns intro-margin">
+          <h4><b>About Me</b></h4>
+          <p class="justify">
+            Hello! I am Sai, a Computer Science student from De La Salle University.
+            What else I could say here? Well, I like programming but I like playing video games
+            and watching some TV series or anime more. I am always looking for new things to
+            learn. A certified couch potato and an introvert with a mild touch of extrovert.</p>
+        </div>
+        <div class="five columns center intro-margin" id="pic-row">
+          <img src="images/me.png" class="pic-size" style="border-radius: 100%">
         </div>
       </div>
     </div>
   </div>
+
+  <div class="section" id="skills">
+    <div class="container">
+      <div class="ul-full-width section-padding center">
+        <h4><b>Skills</b></h4>
+        <div class="row">
+          <div class="four columns">
+            <i class="fas fa-code fa-5x"></i>
+            <br><br>
+            <div class="skills-name">
+              Web Development
+            </div>
+            <br>
+            <div class="row">
+              <div class="four columns">
+                <i class="fab fa-html5 fa-4x"></i>
+              </div>
+              <div class="four columns">
+                <i class="fab fa-css3-alt fa-4x"></i>
+              </div>
+              <div class="four columns">
+                <i class="fab fa-js fa-4x"></i>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="four columns">
+                <i class="fab fa-node fa-4x"></i>
+              </div>
+              <div class="four columns">
+                <i class="fab fa-php fa-4x"></i>
+              </div>
+              <div class="four columns">
+                <i class="fab fa-laravel fa-4x"></i>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="six columns">
+                <b style="font-size: 14pt">Django</b>
+              </div>
+              <div class="six columns">
+                <b style="font-size: 14pt">ASP.NET</b>
+              </div>
+            </div>
+          </div>
+
+          <div class="four columns">
+            <i class="fas fa-desktop fa-5x"></i>
+            <br><br>
+            <div class="skills-name">
+              Software Development
+            </div>
+            <br>
+            <div class="row">
+              <div class="six columns">
+                <i class="fab fa-java fa-4x"></i>
+              </div>
+              <div class="six columns">
+                <i class="fab fa-python fa-4x"></i>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="six columns">
+                <b style="font-size: 14pt">C/C++</b>
+              </div>
+              <div class="six columns">
+                <b style="font-size: 14pt">C#</b>
+              </div>
+            </div>
+          </div>
+
+          <div class="four columns">
+            <i class="fas fa-mobile-alt fa-5x"></i>
+            <br><br>
+            <div class="skills-name">
+              Mobile App Development
+            </div>
+            <br>
+            <i class="fab fa-android fa-4x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section dark-gray" id="experience">
+    <div class="container">
+      <div class="ul-full-width section-padding center">
+        <h4><b>Experience</b></h4>
+        <div class="row">
+          <div class="four columns">
+            <img src="images/lscs-white.png" width="100%" />
+          </div>
+          <div class="eight columns">
+            <div class="row">
+              <div class="left-align">
+                <div style="font-size: 16pt">
+                  <b>Vice President for Publicity and Creatives</b>
+                </div>
+                <p>
+                  January 2018 - August 2019
+                </p>
+              </div>
+              <p class="justify">
+                Spearheads the publicity and marketing of the organization via selected social media platforms.
+                In charge of the creation and distribution of publicity materials for the organization’s programs.
+              </p>
+            </div>
+            <div class="row">
+              <div class="left-align">
+                <div style="font-size: 16pt">
+                  <b>Associate Vice President for Publicity and Creatives</b>
+                </div>
+                <p>September 2017 - January 2018</p>
+              </div>
+              <p class="justify">
+                Actively contributed in the publicity and marketing of the organization via selected social media
+                platforms.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="four columns">
+            <img src="images/csg.png" width="100%" />
+          </div>
+          <div class="eight columns">
+            <div class="left-align">
+              <div style="font-size: 16pt">
+                <b>Community Development Executive</b>
+              </div>
+              <p>September 2017 - August 2018</p>
+            </div>
+            <p class="justify">
+              Implemented welfare and civic programs for the community such as outreach and donation drives.
+              One of the core leaders of “Paskong Lasalyano” and “Regalong Lasalyano” programs.
+              These initiatives have received commendations from the Lasallian community for providing
+              extensive assistance to children and orphans with various needs.
+            </p>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="four columns">
+            <img src="images/dlsu-msc.png" width="100%" />
+          </div>
+          <div class="eight columns">
+            <div class="left-align">
+              <div style="font-size: 16pt">
+                <b>Publicity and Creatives Officer</b>
+              </div>
+              <p>January 2018 - August 2018</p>
+            </div>
+            <p class="justify">
+              Developed and organized publicity materials aligned with the organization’s important undertakings.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section coder" id="projects">
+    <div class="container">
+      <div class="ul-full-width section-padding center">
+        <h4><b>Projects</b></h4>
+        <div class="row">
+          <div class="four columns">
+            <img src="images/proj1.png" style="width: 100%">
+            <h5><b>PvZ Replica</b></h5>
+            <p class="justify">
+              It is replica of Plants Vs. Zombies game by PopCap. It is a requirement for our subject,
+              OBJECTP (Introduction to Object-Oriented Programming). This project is written in Java.
+            </p>
+          </div>
+          <div class="four columns">
+            <img src="images/proj2.png" style="width: 100%">
+            <h5><b>The Buzz Chatroom</b></h5>
+            <p class="justify">
+              It is a working server-client chatroom for our project in NETWORK. This project features public chatroom,
+              private chat with a person, private chatroom with group of friends, and file transfer.
+              This project is written in Java.
+            </p>
+          </div>
+          <div class="four columns">
+            <img src="images/proj3.png" style="width: 100%">
+            <h5><b>Productivity Application</b></h5>
+            <p class="justify">
+              It is a productivity application where you can set an event or a task. It features daily and weekly tasks.
+              This project is for our SWDESPA (Software Design Patterns). This project is written in Java.
+            </p>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <a href="https://github.com/sairakaye?tab=repositories" target="_blank" class="button button-primary">
+            More projects on my Github
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="section light-gray" id="contact">
+    <div class="container">
+      <div class="ul-full-width section-padding center">
+        <div class="row">
+          <h4><b>Contact Me</b></h4>
+          <p>
+            <b>Questions?</b>
+            <br>
+            Feel free to e-mail me!
+          </p>
+          <a href="mailto:saira_manalili@dlsu.edu.ph" class="button button-primary">
+            <i class="fas fa-envelope"></i>&nbsp;
+            saira_manalili@dlsu.edu.ph
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column copyright">
+          © 2019 - Saira Kaye Manalili
+        </div>
+        <div class="one-half column">
+          <a href="https://www.linkedin.com/in/saira-kaye-manalili-924b9a7b/"
+            class="button button-primary button-contact">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/sairakaye" class="button button-primary button-contact">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 </body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/index.js"></script>
 
 </html>

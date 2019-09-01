@@ -1,0 +1,277 @@
+body, html {
+  height: 100%;
+}
+
+/* Custom Options */
+.intro-margin {
+  margin-top: 25%;
+}
+
+.section-padding {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.button.button-primary {
+  color: black;
+  background-color: white;
+  border-color: #535454;
+}
+
+.button.button.button-primary:hover {
+  background-color: #c4c4c4;
+  color: black;
+  border-color: #535454
+}
+
+.button.button-primary:focus {
+  color: #FFF;
+  background-color: #777777;
+  border-color: #777777; }
+
+.center {
+  text-align: center;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.button-contact {
+    font-size: 20pt;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* Navigation Bar Options */
+header {
+  top: 0;
+  left: 0;
+  padding: 0 250px;
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  height: 70px;
+}
+
+.affix {
+  background-color: black;
+  position: fixed;
+  transition:all 0.4s linear;
+  -webkit-transition:all 0.4s linear;
+  -moz-transition:all 0.4s linear; 
+  -o-transition:all 0.4s linear;
+}
+
+.default {
+  background-color: transparent;
+  margin-top: 70px;
+  transition:all 0.4s linear;
+  -webkit-transition:all 0.4s linear;
+  -moz-transition:all 0.4s linear; 
+  -o-transition:all 0.4s linear;
+}
+
+.not-visible {
+  display: none;
+}
+
+header .logo {
+  color: #fff;
+  height: 70px;
+  line-height: 70px;
+  float: left;
+  font-weight: bold;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  height: 70px;
+  line-height: 70px;
+  padding: 0 20px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+  color: #a4a4a4;
+}
+
+.menu-toggle {
+  color: #fff;
+  float: right;
+  line-height: 70px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pic-size {
+  width: 300px;
+}
+
+@media (max-width: 1250px) {
+  header {
+    padding: 0 125px;
+  }
+
+  #my-pic-row.intro-margin {
+    margin-top: 25%;
+  }
+}
+
+@media (max-width: 1000px) {
+  header {
+    padding: 0 20px;
+    position: fixed;
+  }
+
+  .default {
+    margin-top: 0;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  header nav {
+    position: absolute;
+    width: 100%;
+    background-color: #535454;
+    top: 70px;
+    left: -100%;
+  }
+
+  header nav.active {
+    left: 0;
+  }
+
+  header nav ul {
+    display: block;
+    text-align: center;
+  }
+
+  .pic-size {
+    width: 100%;
+  }
+}
+
+@media (max-width: 549px) {
+  #pic-row.intro-margin {
+    margin-top: 0%;
+  }
+
+  .pic-size {
+    width: 300px;
+  }
+}
+
+@media (max-width: 350px) {
+  .pic-size {
+    width: 200px;
+  }
+}
+
+.brand {
+  display: inline-block;
+  background-image: url("../images/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 70px;
+}
+
+.brand-name {
+  display: inline-block;
+  font-size: 18pt;
+  font-weight: bold;
+  margin: 0;
+  top: 50%;
+  -ms-transform: translate(10%, -40%);
+  transform: translate(10%, -40%);
+}
+
+/* Footer Options */
+.footer {
+  background-color: #535454;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.copyright {
+  padding: 10px;
+}
+
+/* For Sections */
+.introduction {
+  background-image: url("../images/background.png");
+  background-color: #575757;
+  background-blend-mode: multiply;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.section {
+  height: auto;
+  width: auto;
+}
+
+.dark-gray {
+  background-color: #535353;
+  color: white;
+}
+
+.light-gray {
+  background-color: #cdcdcd;
+}
+
+.coder {
+  background-image: url("../images/projects-background.png");
+  background-color: #535353;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.skills-name {
+  font-size: 18pt;
+  font-weight: bold;
+}
