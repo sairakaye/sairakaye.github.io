@@ -193,7 +193,7 @@ header nav ul li a.active {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .pic-size {
     width: 250px;
   }
