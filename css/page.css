@@ -235,7 +235,7 @@ header nav ul li a.active {
 
 /* For Sections */
 .introduction {
-  background-image: url("../images/background.png");
+  background-image: url("../images/background.jpg");
   background-color: #575757;
   background-blend-mode: multiply;
   height: 100%;
